@@ -5,6 +5,10 @@ import {Task} from './Task';
 export default {
   component: Task,
   title: 'Components/Task',
+  argTypes: {
+    onArchiveTask: { control: { disable: true }, action: 'click', table: { disable: true } },
+    onPinTask: { control: { disable: true }, action: 'click', table: { disable: true } },
+  },
 };
 
 const Template = args => <Task {...args} />;

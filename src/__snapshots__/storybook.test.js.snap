@@ -13,49 +13,124 @@ exports[`Storyshots Components/Checkbox With Label 1`] = `
 </label>
 `;
 
+exports[`Storyshots Components/FilterCheckbox My Filter Checkbox 1`] = `
+<div
+  className="filter-checkbox"
+>
+  <p
+    className="filter-checkbox__text"
+  >
+    Фильтр
+  </p>
+  <input
+    checked={false}
+    className="filter-checkbox__checkbox"
+    id="filter-checkbox__new"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <label
+    className="filter-checkbox__label"
+    htmlFor="filter-checkbox__new"
+  >
+    <span
+      className="filter-checkbox__button"
+      style={Object {}}
+    />
+  </label>
+</div>
+`;
+
+exports[`Storyshots Components/Input Large 1`] = `
+<div
+  style={
+    Object {
+      "margin": "45px",
+    }
+  }
+>
+  <label>
+    <span>
+      My Input
+    </span>
+    <input
+      className="input input_large"
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Введите текст"
+      value=""
+    />
+  </label>
+</div>
+`;
+
+exports[`Storyshots Components/Input Med 1`] = `
+<div
+  style={
+    Object {
+      "margin": "45px",
+    }
+  }
+>
+  <label>
+    <span>
+      My Input
+    </span>
+    <input
+      className="input input_med"
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Введите текст"
+      value=""
+    />
+  </label>
+</div>
+`;
+
 exports[`Storyshots Components/Input My Input 1`] = `
-<label>
-  <span>
-    My Input
-  </span>
-  <input
-    className="input"
-    disabled={false}
-    onChange={[Function]}
-    placeholder="Введите текст"
-    value=""
-  />
-</label>
+<div
+  style={
+    Object {
+      "margin": "45px",
+    }
+  }
+>
+  <label>
+    <span>
+      My Input
+    </span>
+    <input
+      className="input"
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Введите текст"
+      value=""
+    />
+  </label>
+</div>
 `;
 
-exports[`Storyshots Components/Input My Input Med 1`] = `
-<label>
-  <span>
-    My Input
-  </span>
-  <input
-    className="input input_med"
-    disabled={false}
-    onChange={[Function]}
-    placeholder="Введите текст"
-    value=""
-  />
-</label>
-`;
-
-exports[`Storyshots Components/Input My Input Small 1`] = `
-<label>
-  <span>
-    My Input
-  </span>
-  <input
-    className="input input_small"
-    disabled={false}
-    onChange={[Function]}
-    placeholder="Введите текст"
-    value=""
-  />
-</label>
+exports[`Storyshots Components/Input Small 1`] = `
+<div
+  style={
+    Object {
+      "margin": "45px",
+    }
+  }
+>
+  <label>
+    <span>
+      My Input
+    </span>
+    <input
+      className="input input_small"
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Введите текст"
+      value=""
+    />
+  </label>
+</div>
 `;
 
 exports[`Storyshots Components/Task Archived 1`] = `

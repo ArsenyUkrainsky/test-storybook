@@ -47,3 +47,7 @@
 .input_small {
   max-width: 280px;
 }
+
+.input_large {
+  max-width: 525px;
+}

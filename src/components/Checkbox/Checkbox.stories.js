@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 
 import Checkbox from './Checkbox'
 
@@ -17,3 +17,4 @@ export const withLabel = Template.bind({})
 withLabel.args = {
   label: 'Check',
 }
+ */
