@@ -17,15 +17,15 @@ MyInput.args = {
   label: 'My Input',
   disabled: false,
 }
-export const MyInputSmall = Template.bind({})
-MyInputSmall.args = {
+export const Small = Template.bind({})
+Small.args = {
   placeholder: 'Введите текст',
   label: 'My Input',
   disabled: false,
   size: 'small'
 }
-export const MyInputMed = Template.bind({})
-MyInputMed.args = {
+export const Med = Template.bind({})
+Med.args = {
   placeholder: 'Введите текст',
   label: 'My Input',
   disabled: false,
